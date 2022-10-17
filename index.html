@@ -3,6 +3,8 @@
         <title>Bosch größer Olymp</title> <!--Titel-->
         <link rel="stylesheet" href="main.css"> <!--Link zum CSS sheet-->
         <link rel="icon" type="image/x-icon" href="favicon.png"> <!--Link zum favicon-->
+        <script src="app.js"></script>
+
     </head>
     <body>
         <form onsubmit="myFunction()"> 
@@ -10,14 +12,5 @@
             <button type="submit">Try</button>    
         </form>
 
-        <script>
-            import swal from 'sweetalert';
-            function myFunction() {
-                var x = document.getElementById("text").value
-                    if (x == "42") {
-                        swal("Hello world!");
-                    }
-                }
-        </script>
     </body>
 </html>
