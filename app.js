@@ -10,5 +10,5 @@ let counter = 0;
 btncounter.addEventListener('click', function () {
     counter++
     console.log(counter)
-    document.querySelector("result").innerHTML = counter
+    document.querySelector("#result").innerHTML = counter
 } )
