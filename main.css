@@ -9,6 +9,7 @@
   --btn-width: 6rem;
   --bez: cubic-bezier(0, 0, 0.43, 1.49);
 }
+
 body {
   background: var(--color-dark);
   display: flex;
@@ -50,7 +51,7 @@ input[type="search"] {
   position: relative;
 }
 button {
-  display: none;
+
   position: absolute;
   top: 0;
   right: 0;
@@ -66,13 +67,4 @@ input:not(:placeholder-shown) {
 }
 input:not(:placeholder-shown) + button {
   display: block;
-}
-label {
-  position: absolute;
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0;
-  border: 0;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
 }

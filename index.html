@@ -1,25 +1,22 @@
 <html>
     <head>
-        <title>Bosch größer Olymp</title>
-        <link rel="stylesheet" href="main.css">
-        <link rel="icon" type="image/x-icon" href="favicon.png">
-       
+        <title>Bosch größer Olymp</title> <!--Titel-->
+        <link rel="stylesheet" href="main.css"> <!--Link zum CSS sheet-->
+        <link rel="icon" type="image/x-icon" href="favicon.png"> <!--Link zum favicon-->
     </head>
     <body>
-        <h1>Bitte trage die Lösung ein</h1>
-        <form onsubmit="myFunction()">
-            <label for="search">input</label>
+        <form onsubmit="myFunction()"> 
             <input id="text" type="search" placeholder="Solution" autofocus required />
             <button type="submit">Try</button>    
-          </form>
+        </form>
 
         <script>
             function myFunction() {
-            var x = document.getElementById("text").value
-            if (x == "42") {
-                alert("Gut Gemacht!")
-            }
-        }
+                var x = document.getElementById("text").value
+                    if (x == "42") {
+                        alert("Gut Gemacht!")
+                    }
+                }
         </script>
     </body>
 </html>
