@@ -1,5 +1,5 @@
 :root {
-  --rad: 0.7rem;
+  --rad: 0.7rem; /*Globale Variablen aufgrund von haeufigerer Verwendung*/
   --dur: 0.3s;
   --color-dark: #2f2f2f;
   --color-light: #fff;
@@ -50,8 +50,7 @@ input[type="search"] {
   z-index: 1;
   position: relative;
 }
-button {
-
+#submitbtn {
   position: absolute;
   top: 0;
   right: 0;

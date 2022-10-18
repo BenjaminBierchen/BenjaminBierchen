@@ -1,14 +1,22 @@
     function myFunction() {
     var x = document.getElementById("text").value
+    let c = 0
             if (x == "42") {
-                alert("Super")
+              alert("Super")
+            } else {
+              alert("Das stimmt leider nicht")
+              c++
             }
+    
     }
-let btncounter = document.querySelector("#btn")
-let counter = 0;
-
-btncounter.addEventListener('click', function () {
-    counter++
-    console.log(counter)
-    document.querySelector("#result").innerHTML = counter
-} )
+    
+   /* var clicks = 3
+    function onClick() {
+      clicks--;
+      if (clicks <= 0) {
+        alert("Alle versuche verbraucht")
+        window.close()
+      }
+      document.getElementById("clicks").innerHTML = clicks;
+    }; 
+    */
