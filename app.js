@@ -6,6 +6,9 @@
     setTimeout(function pageRedirect() {
       window.location.replace("loader.html"); //weiterleitung auf congrats page
     });
+  } else {
+
+
   }
   
 }
@@ -18,3 +21,7 @@ function sleep(milliseconds) { //delay func
   } while (currentDate - date < milliseconds);
 }
 
+  function counter() {
+    clicks +=1;
+    document.getElementById("clicks").innerHTML = clicks;
+  }
