@@ -19,7 +19,7 @@
     document.getElementById("text").value = null; //input feld clear
 }
 
-function sleep(milliseconds) { //delay func 
+function sleep(milliseconds) { //delay function 
   const date = Date.now();
   let currentDate = null;
     do {

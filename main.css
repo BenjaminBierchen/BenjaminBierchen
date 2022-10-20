@@ -40,7 +40,7 @@ input, button {
   font-size: 1.8rem;
 }
 input[type="search"] {
-  outline: 0;
+  outline: 1;
   width: 100%;
   background: var(--color-light);
   padding: 0 1.6rem;
@@ -72,5 +72,7 @@ input:not(:placeholder-shown) + button {
 p {
   font-family: var(--font-fam);
   color: white;
-  
+  font-size:30px;
+  height:100px; 
+  padding:25px;
 }
