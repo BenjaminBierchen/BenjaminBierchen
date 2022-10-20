@@ -69,3 +69,8 @@ input:not(:placeholder-shown) + button {
   display: block;
 }
 
+p {
+  font-family: var(--font-fam);
+  color: white;
+  
+}

@@ -7,10 +7,10 @@
 
     </head>
     <body>
-        <form onsubmit="checkAnswer()"> <!-- bei submit wird die func checkAnswer ausgefuehrt-->
+        <form> <!-- bei submit wird die func checkAnswer ausgefuehrt-->
             <input id="text" type="search" placeholder="Solution" autofocus required/>
-            <button onclick="counter()" id ="submitbtn" type="submit">Try</button>    
-            <p>Clicks: <a id="clicks">0</a></p>
+            <button onClick="checkAnswer()"id ="submitbtn" type ="button">Try</button>    
         </form>
+        <p>Versuche übrig: <a id="clicks">3</a></p>
     </body>
 </html>
