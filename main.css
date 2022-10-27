@@ -17,6 +17,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   overflow: hidden;
+  /*background-image: url("party2.jpeg");*/
 }
 html {
   box-sizing: border-box;
@@ -39,7 +40,7 @@ input, button {
   color: var(--color-dark);
   font-size: 1.8rem;
 }
-input[type="search"] {
+input { /*[type="search"]*/
   outline: 1;
   width: 100%;
   background: var(--color-light);
@@ -75,4 +76,10 @@ p {
   font-size:30px;
   height:100px; 
   padding:25px;
+}
+
+.darkmode {
+  --color-dark: #ffffff;
+  --color-light: gray;
+
 }
