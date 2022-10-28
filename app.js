@@ -1,4 +1,3 @@
-
   var count = 3; // variable für Versuche, am Anfang 3 
   function checkAnswer() { //func prüft Antwort 
     var solutionInput = document.getElementById("text").value //uebernahme der eingabe des inputfeldes
