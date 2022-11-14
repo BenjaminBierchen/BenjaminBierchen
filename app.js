@@ -1,7 +1,7 @@
-  var count = 3; // variable für Versuche, am Anfang 3 
+  var count = 1; // variable für Versuche, am Anfang 3 
   function checkAnswer() { //func prüft Antwort 
     var solutionInput = document.getElementById("text").value //uebernahme der eingabe des inputfeldes
-    if (solutionInput == "42") { //antwort pruefen 
+    if (solutionInput == "Justus") { //antwort pruefen 
       sleep(1000) // delay 1000ms
       setTimeout(function pageRedirect() { //ueberarbeiten  
         window.location.replace("loader.html"); //weiterleitung auf congrats page
