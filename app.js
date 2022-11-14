@@ -3,9 +3,9 @@
     var solutionInput = document.getElementById("text").value //uebernahme der eingabe des inputfeldes
     if (solutionInput == "Justus") { //antwort pruefen 
       sleep(1000) // delay 1000ms
-      setTimeout(function pageRedirect() { //ueberarbeiten  
+      //ueberarbeiten  
         window.location.replace("loader.html"); //weiterleitung auf congrats page
-        });
+       
     } else {
         count -=1;
         document.getElementById("clicks").innerHTML = count;
