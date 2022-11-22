@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Bosch größer Olymp</title> <!--Titel-->
+        <link rel="stylesheet" href="main.css"> <!--Link zum CSS sheet-->
+        <link rel="icon" type="image/x-icon" href="favicon.png"> <!--Link zum favicon-->
+        <script src="app.js"></script> <!-- Link zu javascript-->
+
+    </head>
+    
+    <body>
+        <form> <!-- bei submit wird die func checkAnswer ausgefuehrt-->
+            <input id="text" type="search" placeholder="Solution" autofocus required/>
+            <button onClick="checkAnswer()"id ="submitbtn" type ="button">Try</button>    
+        </form>
+        <p>Versuche übrig: <a id="clicks">1</a></p>
+    </body>
+</html>
