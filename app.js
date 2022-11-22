@@ -1,11 +1,10 @@
-  var count = 1; // variable für Versuche, am Anfang 3 
-  function checkAnswer() { //func prüft Antwort 
-    var solutionInput = document.getElementById("text").value //uebernahme der eingabe des inputfeldes
-    if (solutionInput == "Justus") { //antwort pruefen 
-      sleep(1000) // delay 1000ms
-      //ueberarbeiten  
-        window.location.replace("loader.html"); //weiterleitung auf congrats page
-       
+  var count = 1;  
+  function checkAnswer() { 
+    var solutionInput = document.getElementById("text").value 
+    if (solutionInput == "Justus") {  
+      sleep(1000) 
+        window.location.replace("loader.html"); 
+
     } else {
         count -=1;
         document.getElementById("clicks").innerHTML = count;
@@ -14,7 +13,7 @@
             location.reload();
           }
     }
-    document.getElementById("text").value = null; //input feld clear
+    document.getElementById("text").value = null;
 }
 
 function sleep(milliseconds) { //delay function 
@@ -24,4 +23,6 @@ function sleep(milliseconds) { //delay function
     currentDate = Date.now();
   } while (currentDate - date < milliseconds);
 }
+
+
 
